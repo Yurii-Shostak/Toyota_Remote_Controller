@@ -11,7 +11,7 @@ Firmware update:
     WITH_BLOCK_DOWNLOAD "Enable support for CoAP(S) downloads" ON "WITH_DOWNLOADER" ON.
     WITH_HTTP_DOWNLOAD "Enable support for HTTP(S) downloads" ON "WITH_DOWNLOADER" ON.
 
-    Also you need to install the library by next commands:
+    Also you need to install the anjay-library by next commands:
 
     cmake -DCMAKE_BUILD_TYPE=Debug ..
     make clean install
